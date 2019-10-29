@@ -16,7 +16,7 @@ function setGradient() {
 	css.textContent = body.style.background + ";";
 }
 
-function colorRan() {
+function randomColor() {
   var letters = '0123456789ABCDEF';
   var color = '#';
   for (var i = 0; i < 6; i++) {
@@ -26,8 +26,8 @@ function colorRan() {
 }
 
 function randomise() {
-	color1.value = colorRan();
-	color2.value = colorRan();
+	color1.value = randomColor();
+	color2.value = randomColor();
 
 	body.style.background = 
 	"linear-gradient(to right, " 
