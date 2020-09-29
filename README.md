@@ -1,3 +1,4 @@
 # Background-Generator
- CSS Gradient background generator
+ A CSS Gradient background generator that anybody can use.
+ 
 ![IMG](IMG.PNG)
